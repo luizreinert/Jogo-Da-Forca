@@ -1,0 +1,39 @@
+fruta = [
+  "Abacaxi", "Banana", "Morango", "Maca", "Uva",
+  "Pera", "Laranja", "Limao", "Melancia", "Kiwi",
+  "Goiaba", "Melao", "Cereja", "Manga", "Pessego",
+  "Framboesa", "Coco", "Abacate", "Amora", "Jabuticaba",
+  "Tangerina", "Pitaya", "Groselha", "Carambola", "Roma",
+  "Physalis", "Caju", "Mirtilo", "Ameixa", "Damasco"]
+
+país = [
+    "Brasil", "Estados Unidos", "Canada", "Japao", "Alemanha",
+    "Franca", "Italia", "Reino Unido", "Australia", "China",
+    "India", "Russia", "Coreia do Sul", "Argentina", "Mexico",
+    "Espanha", "Portugal", "Chile", "Colombia", "Suica",
+    "Suecia", "Holanda", "Belgica", "Dinamarca", "Noruega",
+    "Finlandia", "Africa do Sul", "Nova Zelandia", "Irlanda", "Grecia"
+]
+
+animal = [
+  "Elefante", "Leao", "Girafa", "Zebra", "Macaco",
+  "Tigre", "Cachorro", "Gato", "Papagaio", "Pinguim",
+  "Cavalo", "Cobra", "Panda", "Urso", "Camelo",
+  "Rinoceronte", "Baleia", "Hipopotamo", "Jacare", "Coala",
+  "Orangotango", "Gorila", "Serpente", "Avestruz", "Polvo",
+  "Foca", "Aguia", "Panda Vermelho", "Lobo", "Suricato"
+  ]
+
+cor = [
+  "Vermelho", "Azul", "Verde", "Amarelo", "Roxo", "Laranja", 
+  "Rosa", "Preto", "Branco", "Marrom", "Cinza", "Turquesa", 
+  "Bege", "Dourado", "Prateado"
+  ]
+
+profissao = [
+  "Medico", "Professor", "Engenheiro", "Advogado", "Arquiteto", 
+   "Programador", "Enfermeiro", "Dentista", "Policial", "Farmaceutico", 
+   "Veterinario", "Contador", "Psicologo", "Cozinheiro", "Eletricista", "Biomedico"
+  ]
+
+
