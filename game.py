@@ -108,6 +108,11 @@ def jogodaforca():
           tentativas -= 0
           print(f'{Fore.LIGHTRED_EX}\nA palavra tem {len(palavra_secreta)} '
                 f'letras, digite uma letra ou tente acertar a palavra!\n{Fore.RESET}')
+
+        # Se o jogador completar todas as letras, o jogo termina
+        if palavra_secreta.isalpha() is True:
+          print(f'Parabéns, você acertou! A palavra era {Fore.LIGHTGREEN_EX}{palavra_sorteada}{Fore.RESET}')
+          fim_jogo = 1
           
         # Se o jogador decidir tentar chutar a palavra e acertar, o jogo terminará
         if palpite == palavra_sorteada:
@@ -179,7 +184,8 @@ def jogodaforca():
 
         # Implementa um loop que oferece ao usuário a opção de jogar novamente ou encerrar o programa
         if tentativas == 0:
-          print(f'\n{Fore.RED}Acabaram suas tentativas, você perdeu!{Fore.RESET}')
+          print(f'\n{Fore.RED}Acabaram suas tentativas, você perdeu\n'
+                            f'A palavra era {Fore.LIGHTGREEN_EX}{palavra_sorteada}!{Fore.RESET}\n')
         if fim_jogo == 1 or tentativas == 0:
           while True:
             retornar = input(f'Quer jogar outra vez?\n\n'
